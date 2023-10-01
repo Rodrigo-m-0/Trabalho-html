@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    height: 100px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    background-color: #21272B;
+    color: white;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.header-text-logo {
+    height: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+
+.header-text-logo > h3 {
+    color: #1BB4E8;
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.header-text-logo > h2 {
+    font-weight: 400;
+    font-style: italic;
+}
+
+.header-menu {
+    width: 75vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.header-menu > a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    margin-left: 20px;
+    border-right: 2px solid white;
+    padding-right: 85px;
+}
+
+.header-menu > a:hover {
+    color: #1bb4e8;
+}
+
+#CONTATO {
+    border: none;
+}
+
+.content {
+    height: 700px;
+    background: url('imagens/barcoprincipal.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.text-content {
+    background-color: rgba(0, 0, 0, 0.607);
+    height: 300px;
+    width: 550px;
+    position: relative;
+    top: 270px;
+    left: 60vw;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-content > h1 {
+    font-size: 1.9rem;
+    font-weight: 400;
+    font-style: italic;
+    margin-left: 30px;
+    position: relative;
+    bottom: 50px;
+}
+
+.telefone > img {
+    width: 40px;
+    height: 50px;
+    margin-left: 20px;
+}
+
+.telefone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500;
+}
+
+.telefone > p {
+    font-size: 1.5rem;
+    margin-left: 20px;
+    position: relative;
+    font-style: italic;
+}
+
+.telefone > p > span {
+    color: #C6B07F;
+    font-size: 1.7rem;
+}
+
+.viagens {
+    display: flex;
+}
+
+.destinos {
+    display: right;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 50px;
+    width: 50vw;
+}
+
+.destinos > img {
+    width: 800px;
+    height: 400px;
+}
+
+.title-destinos {
+    display: flex;
+    background-color: #1BB4E8;
+    color: white;
+    align-items: center;
+}
+
+.title-destinos > img {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.title-destinos > h4 {
+    font-size: 1.6rem;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.destinos > h5 {
+    font-size: 1.6rem;
+    font-weight: 400;
+    font-style: italic;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.destinos > p {
+    margin-bottom: 35px;
+}
+
+.Frota {
+    display: right;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 50px;
+    width: 50vw;
+}
+
+.title-Frota {
+    display: flex;
+    background-color: #C6B07F;
+    color: white;
+    align-items: center;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.title-Frota > img {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.title-Frota > h4 {
+    font-size: 1.6rem;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.Frota > h5 {
+    font-size: 1.6rem;
+    font-weight: 400;
+    font-style: italic;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.Frota > p {
+    margin-bottom: 35px;
+}
+
+.Frota > img {
+    height: 200px;
+    margin: 5px;
+}
